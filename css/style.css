@@ -1,0 +1,145 @@
+section{
+    font-family: 'Montserrat', sans-serif;
+}
+/* header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    
+} */
+.font35px{
+    font-size: 35px;
+}
+.margiBot{
+    margin-bottom: 3%;
+}
+.margHead{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 15%;
+}
+.tamCab{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+a.tamCab:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+.corCab{
+    background-color: #BBBBBB;
+}
+.neg{
+    font-weight: bold;
+}
+.distHead{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.font21px{
+    font-size: 21px;
+}
+.font18px{
+    font-size: 18px;
+}
+.distMap{
+    margin-top: 5%;
+}
+.degrade{
+    background: linear-gradient(#FFFFFF, #888888)
+}
+.imagem-beneficios{
+    /* Opacity: refere-se a opacidade, uma camada a mais posta sobre a imagem,
+    como um insulfilme para a janela de carro,
+    que oferece níveis diferentes de proteção contra o Sol ; vai de 0 a 1 */
+    opacity: 1;
+    transition: 400ms;
+    /* Box-shadow: possui a propriedade do eixo X, Y, blur(opcional), intensidade da borda(opcional) 
+    e uma cor; Nesse caso, queremos deslocar 10px no eixo X e Y,  a cor que utilizaremos será preto.*/
+    box-shadow: 10px 10px 10px 0 #000000;
+    /*OBS: é possível colocar sombra sobre sombra -  box-shadow: 10px 10px 10px #000000, -10px, -10px, #FFFFFF;*/
+}
+.lista-beneficios{
+    list-style: none;
+}
+.itens {
+    /* line-height: altura da linha, muda o espaçamento entre textos */
+    font-weight: bold;
+}
+/* Dentro dos itens da lista de benefícios, apenas o primeiro item será afetado 
+Isso é considerado como pseudo-classe*/
+.itens:first-child {
+    font-weight: bold;
+}
+/* Nesse caso o ultimo elemento da lista será afetado */
+/* .itens:last-child {
+        font-weight: bold;
+} 
+Nesse caso qualquer elemento escolhido será afetado, dentro dos parenteses coloca-se a posição
+que aquele elemento se encontra
+.itens:nth-child() {
+ 
+}    
+*/
+.itens:before{
+    content: "★"
+}
+.botao_carrinho{
+    background: #1f72c0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.botao_carrinho:hover{
+    cursor: pointer;
+}
+.botao_comprar{
+    background: #ad0b0b;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 80%;
+
+}
+.botao_comprar:hover{
+    cursor: pointer;
+}
+.input-group{
+    margin-left: 5%;
+}
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #3086d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    border-radius: 40px;
+}
+@media screen and (max-width: 992px) {
+    .input-group{
+        margin-left: 1.5%;
+        margin-top: 2%;
+    }
+}
+/*=========================================== CSS da Página inicial =======================================*/
+
+/* Pseudo-elemento: quando a partir do Css, consegue-se afetar um pequena parte do texto sem utilizar uma tag.
+Nesse caso, a primeira letra da classe titulo-principal ficará em negrito*/
+/*.titulo-principal::first-letter {
+    font-weight: bold;
+}
+/* Nesse dois exemplos, a partir do CSS, pode-se colocar conteúdo antes da aplicação em html;
+ Esses dois elementos criam espaço para que o CSS atue antes ou depois de um determinado conteúdo 
+.titulo-principal:before{
+}
+.titulo-principal:after {
+}*/

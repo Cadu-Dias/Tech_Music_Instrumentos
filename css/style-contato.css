@@ -1,0 +1,60 @@
+body{ 
+    font-family: 'Montserrat', sans-serif;
+}
+form {
+    margin: 40px 0;
+    margin-left: 3em;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width:50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    /* Transition: Utilizado deixar algo mais suave, tendo-se um tempo de transição, para que outra ação ocorra
+    nesse há uma transição de 1 segundo na cor do botão quando o usuário coloca o cursor nele */
+    transition: 1s all;
+    /* Cursor: Muda o estilo do cursor, de modo a indicar algo */
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+    /* Transform: ao acontecer algo ele irá realizar alguma mudança, podendo ser de tamanho, posição e etc. */
+    /*transform: scale(1.2);*/
+}
+
+table {
+    margin: 20px 0 40px;
+    margin-left: 3em;
+}
+thead {
+    background: #555555;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+

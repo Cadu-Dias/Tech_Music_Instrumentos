@@ -1,0 +1,77 @@
+body{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#titulo_principal{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 2% 1.5%;
+
+    padding: 30px 20px;
+    /* Box-sizing: tamanho da caixa. border-box: faz com que a largura sempre seja 30%, sendo assim
+    qualquer espaçamento que for feito, não vai alterar a largura */
+    box-sizing: border-box;
+    /*border-color: #000000;
+    border-style: solid;
+    /* border-widht: tem suas versões /border-top-width/border-down-widht/border-left-width/border-right-width */
+    /*border-width: 2px;*/
+    border: 2px solid #000000;
+    /* Defini a curvatura das bordas, fazendo um cálculo com os pixel passados para recriar o ângulo desejado */
+    border-radius: 10px;
+    
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+}
+/* Active: Ao realizar a ação de clicar algo acontecerá */
+.produtos li:active{
+    border-color: #088c08
+}
+/* Nesse caso, quando o cursor estiver em cima dos elementos do li, os textos do h2 aumentarão de tamanho */
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.imagem_produto{
+    width: 70%;
+
+}
+
+#img_flauta{
+    width: 77%
+}
+#img_arpa{
+    width:56%
+}

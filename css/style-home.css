@@ -1,0 +1,122 @@
+/* Body: corpo do site, qaulquer mudança nele afeta o site inteiro */
+/*body {
+    
+}*/
+header {
+    background-color: #BBBBBB;
+    padding: 20px;
+}
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.title-principal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#logo {
+    margin-right: 30px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right:0%;
+}
+
+nav li {
+    display: inline;
+    /* cima, direita, baixo, esquerda  ou daria para colocar margin-left: 15px*/
+    margin: 0 0 0 15px; 
+    
+}
+nav a {
+    /* Transforma o texto em maiusculo */
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    /* Tira qualquer decoração no texto */
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+.titulo_centralizado {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+}
+
+/* paragrafo */
+.p_secundarios {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+/* # + nome dado do id: forma de mudar um trecho específico presente no corpo do site */
+#missao {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* OBS: caso queira alterar um texto específico, deve-se pegar a tag que cubre apenas o texto que quer
+    |_> OBS 1.1: Caso tal tag cubra diferentes textos, coloca-se atrás da tal tag outra tag que cubra */
+em strong {
+    color: #FF0000;
+}
+
+/* . + nome da classe: como inserir uma classe no css */
+.itens {
+    font-style: italic;
+    font-size: 26px;
+    padding-top: 40px;
+    padding-left: 50px;
+    vertical-align: bottom;
+}
+
+.beneficios {
+    background: #cccccc;
+    padding: 20px;
+    
+}
+
+ul {
+    display: inline-block;
+    /* Mudança vertical do local onde o elemento ficará alinhado */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagemBeneficio{
+    width: 50%;
+    height: 400px;
+}
+
+footer {
+    text-align: center;
+    /* Utilizado caso queira que o fundo seja uma imagem */
+    background-image: url("/images/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
